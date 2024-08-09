@@ -49,6 +49,7 @@ def chat_with_ai(update: Update, context: CallbackContext) -> None:
 TELEGRAM_TOKEN = "token from telegram"
 
 def main():
+    
     updater = Updater(TELEGRAM_TOKEN, use_context=True)
 
     dp = updater.dispatcher
